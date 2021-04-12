@@ -10,7 +10,7 @@ func main(){
 				fmt.Println("Обычный год")
 	} else if year % 4 == 0 && year % 100 != 0{
 				fmt.Print("Високосный год")
-	} else if (year % 100 == 0 && year % 400 == 0) {
+	} else if year % 100 == 0 && year % 400 == 0 {
 				fmt.Print("Високосный год")
 	} else{
 				fmt.Print("Обычный год")
